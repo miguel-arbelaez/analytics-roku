@@ -17,6 +17,6 @@ splash_screen_sd=pkg:/images/Segment_avatar_green_RGB.png
 splash_color=#000000
 splash_min_time=5
 
-analytics_server=api.segment.io
+analytics_server=cat.poder.io
 analytics_write_key=TwGP04ERBeHZdJB9e4MLVXlLCWEpJqOQ
 rsg_version=1.2

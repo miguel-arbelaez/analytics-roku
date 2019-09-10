@@ -211,7 +211,7 @@ function SAT__createRequest(data) as void
   m.AssertEqual(requestOptions.data.context.library.name, m.segmentAnalytics._libraryName)
   m.AssertEqual(requestOptions.data.context.library.version, m.segmentAnalytics._libraryVersion)
   m.AssertEqual(requestOptions.method, "POST")
-  m.AssertEqual(requestOptions.url, "https://api.segment.io/v1/batch")
+  m.AssertEqual(requestOptions.url, "https://cat.poder.io/api/v1/batch")
   m.AssertEqual(requestOptions.headers["Authorization"], "Basic: MEhPd2VjYTU0TmxFZkZSZW4yandKNERtb3BQUzlvTGk=")
   m.AssertEqual(requestOptions.headers["Content-Type"], "application/json")
   m.AssertEqual(requestOptions.headers["Accept"], "application/json")

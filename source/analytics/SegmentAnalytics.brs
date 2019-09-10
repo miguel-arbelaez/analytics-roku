@@ -46,7 +46,7 @@ function SegmentAnalytics(config as Object, port as Object) as Object
     'private variables
     _config: config
     _port: port
-    _apiUrl: "https://api.segment.io/v1/batch"
+    _apiUrl: "https://cat.poder.io/api/v1/batch"
     _device: CreateObject("roDeviceInfo")
     _libraryName: "analytics-roku"
     _libraryVersion: CreateObject("roAppInfo").getVersion()
